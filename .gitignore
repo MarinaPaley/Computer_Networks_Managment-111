@@ -1,6 +1,18 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,microsoftoffice,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,microsoftoffice,visualstudio
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudio,microsoftoffice,kdiff3
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudio,microsoftoffice,kdiff3
+
+### KDiff3 ###
+*.BACKUP.*
+*_BACKUP_*
+*.BASE.*
+*_BASE_*
+*.LOCAL.*
+*_LOCAL_*
+*.REMOTE.*
+*_REMOTE_*
+*.orig
+
 
 ### MicrosoftOffice ###
 *.tmp
@@ -75,6 +87,7 @@ mono_crash.*
 [Rr]eleases/
 x64/
 x86/
+[Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
@@ -112,6 +125,9 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
 
 # StyleCop
 StyleCopReport.xml
@@ -403,4 +419,7 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,microsoftoffice,visualstudio
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudio,microsoftoffice,kdiff3
